@@ -7,7 +7,7 @@ function populateGallery(data){
         div.innerHTML = `
                 <div class="gallery-entry">
                     <img src="${element.title_image}" class="entry-image">
-                    <a class="entry-overlay" href="${element.link}">
+                    <a class="entry-overlay" href="${element.link}" alt="${element.title_image}">
                         ${element.title}
                     </a>
                 </div>

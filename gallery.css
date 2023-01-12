@@ -1,17 +1,23 @@
 .gallery-container{
-    background-color: green;
     display: grid;
     grid-template-columns: 47.5% 47.5%;
     grid-gap: 5%;
     width: 60%;
+    max-width: 900px;
     margin: auto;
+    margin-top: 30px;
 }
 
 .gallery-entry-container{
     width: 80%;
     padding: 10%;
-    background-color: gray;
     aspect-ratio: 1/1;
+
+    background-color: #EEE;
+    border-color: #888;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .gallery-entry{
@@ -36,8 +42,8 @@
     grid-area: 1 / 1;
     background-color: transparent;
     transition: ease .5s;
-    display: flex;
-
+    cursor: pointer;
+    
     display: flex;
     align-items: flex-end;
     justify-content: center;
