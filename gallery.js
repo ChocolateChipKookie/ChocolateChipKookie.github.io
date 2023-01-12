@@ -1,5 +1,3 @@
-
-
 let url = 'https://example.com';
 
 fetch(url)

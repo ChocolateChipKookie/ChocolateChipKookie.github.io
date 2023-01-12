@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Jordan",
+        "title_image": "./files/images/jordan.jpg",
+        "link": "https://www.google.com"
+    },
+    {
+        "title": "Lebanon",
+        "title_image": "./files/images/lebenon.jpg",
+        "link": "https://www.youtube.com"
+    }
+]
