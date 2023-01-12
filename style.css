@@ -29,36 +29,46 @@
 }
 
 .link-entry {
-    padding: 20px 0;
-    font-size: 30px;
     display: grid;
     background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 .link-entry > a {
     display: grid;
 }
 
+.link-entry-overlay {
+    padding: 10%;
+    grid-area: 1 / 1;
+    cursor: pointer;
+}
 
 .link-icon-container {
     background-color: white;
-    grid-area: 1 / 1;
     text-align: center;
     color: transparent;
+    transition: .5s ease;
+
 }
+
 .link-icon-container:hover {
     background-color: transparent;
 }
 
 .link-icon {
     width: 35%;
+    color: aquamarine;
+
 }
 
 .link-text {
-    grid-area: 1 / 1;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    background: radial-gradient(#E8E8E8 20%, transparent 60%);
 }
 
 a {
