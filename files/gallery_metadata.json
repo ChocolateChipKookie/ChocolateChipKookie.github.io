@@ -2,11 +2,16 @@
     {
         "title": "Jordan",
         "title_image": "./files/images/jordan.jpg",
-        "link": "https://www.google.com"
+        "link": "https://drive.google.com/drive/folders/1FGwr2GGz_T4s7bHbgD7Qr8wlQJeGG8eo?usp=share_link"
     },
     {
         "title": "Lebanon",
         "title_image": "./files/images/lebenon.jpg",
-        "link": "https://www.youtube.com"
+        "link": "https://drive.google.com/drive/folders/1LDn3HrhHr0eCvJ0LBVtVagNgRvrMPvBr?usp=share_link"
+    },
+    {
+        "title": "Slovenia</br>(January 2023)",
+        "title_image": "./files/images/slovenia_2023.jpg",
+        "link": "https://drive.google.com/drive/folders/1UATM7GCZZ5nQ99YT_2nOb3ZcBkl0vU_4?usp=share_link"
     }
 ]
